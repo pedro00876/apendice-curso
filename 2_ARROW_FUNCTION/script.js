@@ -24,13 +24,13 @@ const user = {
     var self = this
     setTimeout(function () {
       console.log(self)
-      console.log('Username:' + self.name)
+      console.log('Username: ' + self.name)
     }, 500)
   },
   sayUserNameArrow() {
     setTimeout(() => {
       console.log(this)
-      console.log('Username' + this.name)
+      console.log('Username: ' + this.name)
     }, 700)
   },
 }
