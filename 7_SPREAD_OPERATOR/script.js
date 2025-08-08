@@ -5,16 +5,16 @@ const a3 = [...a1, ...a2]
 
 console.log(a3)
 
-
-const a4 =[0, ...a1, 4]
+const a4 = [0, ...a1, 4]
 
 console.log(a4)
 
+const carName = { name: 'Gol' }
+const carBrand = { brand: 'VW' }
+const otherInfos = { km: 10000, price: 49000 }
 
-const carName = {name: "Gol"}
-const carBrand = {brand: "VW"}
-const otherInfos = {km: 10000, price: 49000}
-
-const car = {...carName, ...carBrand, ...otherInfos}
+const car = { ...carName, ...carBrand, ...otherInfos }
 
 console.log(car)
+
+//commit urgenteeeeee
